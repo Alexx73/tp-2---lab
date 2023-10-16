@@ -41,6 +41,7 @@ namespace tp_2___lab
 
         private void btnReservas_Click(object sender, EventArgs e)
         {
+
             FiltroReservas Fresertas = new FiltroReservas();
             aplicarFiltros(Fresertas);
         }
